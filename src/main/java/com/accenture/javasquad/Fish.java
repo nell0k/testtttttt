@@ -4,7 +4,7 @@ public abstract class Fish {
     public String getName() {
         return name;
     }
-    public String color;
+    public int size;
     public void setName(String name) {
         this.name = name;
     }
