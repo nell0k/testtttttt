@@ -1,0 +1,30 @@
+GET/ PUT/ POST/ DELETE
+
+GET /listOfFish
+
+Request: n/a
+Response:
+In case 200:
+
+[
+    {
+        "id": 10,
+        "name": "Lilly",
+        "type": "shark",
+    }
+   ]
+POST/ listOfFish
+
+Request:
+    {
+        "name": "Lilly",
+        "type": "shark",
+    }
+Response:
+    {
+        "id": 10,
+        "name": "Lilly",
+        "type": "shark",
+    }
+
+
